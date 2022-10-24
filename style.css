@@ -1,0 +1,210 @@
+/*===============================================lbar lfou9ani*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a,
+.boutton1 {
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: rgb(179, 173, 173);
+
+  border-width: 0px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  border-bottom: 1px solid black;
+  background-color: rgb(20, 20, 53);
+}
+
+.title {
+  display: flex;
+  cursor: pointer;
+  transform: translate(-20px, 0);
+}
+.list {
+  list-style: none;
+}
+form {
+  display: flex;
+  margin-right: -30px;
+}
+input {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: 100px;
+  background-color: beige;
+  border-width: 0px;
+}
+.boutton1 {
+  background-color: rgb(20, 20, 53);
+  margin-left: -22px;
+  align-items: center;
+  border-radius: 20px;
+  height: 30px;
+  width: 30px;
+  transform: translate(-27px);
+}
+
+.list,
+a {
+  display: flex;
+  padding: 0px 13px;
+}
+.boutton1 {
+  transform: translate(-20px, 0px);
+}
+h3 {
+  font-family: Helvetica, Sans-Serif;
+  transform: translate(2px);
+  color: rgb(255, 255, 255);
+}
+.logo {
+  color: rgb(201, 2, 2);
+}
+h4 {
+  align-items: center;
+
+  text-align: center;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 10px;
+  cursor: none;
+}
+
+.image {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)),
+    url(images/photo.jpg);
+
+  padding: 400px 500px;
+
+  background-size: cover;
+}
+
+nav,
+li,
+a {
+  transition: all 0.8s ease 0.2s;
+}
+nav li a:hover {
+  color: aliceblue;
+}
+.boutton1 {
+  transition: all 1s;
+}
+.boutton1:hover {
+  color: beige;
+}
+.says {
+  align-items: center;
+  transform: translate(0px, -180px);
+}
+.says > p {
+  font-size: 18px;
+}
+h1 {
+  color: rgb(247, 151, 8);
+}
+p {
+  color: beige;
+}
+h1,
+p {
+  cursor: pointer;
+}
+/*=============================================================================foouter*/
+.footer {
+  background-color: rgb(19, 17, 17);
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+.footer > p {
+  font-size: 0.7rem;
+  width: 180px;
+  height: 90px;
+  font-family: "Lora", serif;
+  transform: translate(-25px, 0px);
+  color: rgb(255, 255, 255);
+}
+.footer > h3 {
+  transform: translate(-30px, -40px);
+  font-family: "Ceviche One", cursive;
+}
+.list1,
+.list2 {
+  list-style: none;
+}
+.list2 {
+  display: flex;
+}
+.list2 > li > a > i {
+  font-size: 25px;
+  transition: all 0.5s ease 0.2s;
+}
+.bigger > i:hover {
+  color: #4267b2;
+  font-size: 27px;
+}
+.bigger2 > i:hover {
+  color: rgb(40, 103, 178);
+  font-size: 27px;
+}
+.bigger3 > i:hover {
+  color: rgb(224, 54, 187);
+  font-size: 27px;
+}
+.tr1 {
+  transform: translate(-20px, 0px);
+  transition: all 0.5s ease 0.2s;
+}
+.list1 {
+  transform: translate(0px, -10px);
+}
+.tr1:hover {
+  color: rgb(252, 252, 252);
+}
+.copyright {
+  background-color: black;
+  color: beige;
+  padding: 7px;
+  font-size: 0.9rem;
+  font-weight: bolder;
+  text-align: center;
+}
+/*===================================================================== actualités*/
+
+.wost {
+  text-align: center;
+}
+.actheader {
+  text-align: center;
+  align-items: center;
+}
+.h > h1 {
+  margin-top: 20px;
+  margin-left: 47%;
+
+  text-align: center;
+  display: flex;
+  color: black;
+  padding-right: 100px;
+}
+
+.act2 > p {
+  cursor: text;
+  text-align: center;
+  color: black;
+  margin: 70px;
+  font-family: "montserrat";
+  font-size: 17px;
+}

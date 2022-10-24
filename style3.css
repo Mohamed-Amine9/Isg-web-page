@@ -1,0 +1,338 @@
+/*===============================================lbar lfou9ani*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a,
+.boutton1 {
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: rgb(179, 173, 173);
+
+  border-width: 0px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  border-bottom: 1px solid black;
+  background-color: rgb(20, 20, 53);
+}
+
+.title {
+  display: flex;
+  cursor: pointer;
+  transform: translate(-20px, 0);
+}
+.list {
+  list-style: none;
+}
+form {
+  display: flex;
+  margin-right: -30px;
+}
+input {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: 100px;
+  background-color: beige;
+  border-width: 0px;
+}
+.boutton1 {
+  background-color: rgb(20, 20, 53);
+  margin-left: -22px;
+  align-items: center;
+  border-radius: 20px;
+  height: 30px;
+  width: 30px;
+  transform: translate(-27px);
+}
+
+.list,
+a {
+  display: flex;
+  padding: 0px 13px;
+}
+.boutton1 {
+  transform: translate(-20px, 0px);
+}
+h3 {
+  font-family: Helvetica, Sans-Serif;
+  transform: translate(2px);
+  color: rgb(255, 255, 255);
+}
+.logo {
+  color: rgb(201, 2, 2);
+}
+h4 {
+  align-items: center;
+
+  text-align: center;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 10px;
+  cursor: none;
+}
+.new {
+  background-color: rgb(243, 234, 231);
+}
+.image {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)),
+    url(images/photo.jpg);
+
+  padding: 400px 500px;
+  margin-top: 10px;
+  background-size: cover;
+}
+nav,
+li,
+a {
+  transition: all 0.8s ease 0.2s;
+}
+nav li a:hover {
+  color: aliceblue;
+}
+.boutton1 {
+  transition: all 1s;
+}
+.boutton1:hover {
+  color: beige;
+}
+.says {
+  align-items: center;
+  transform: translate(0, -300px);
+}
+h1 {
+  color: rgb(247, 151, 8);
+}
+p {
+  color: beige;
+}
+h1,
+p {
+  cursor: pointer;
+}
+/*=============================================================================content*/
+.hezni {
+  align-items: center;
+  margin-left: 37%;
+}
+.lkol {
+  margin-top: 25px;
+
+  width: 425px;
+  /*min-height: 16px;*/
+  flex-direction: column;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 2px solid #009879;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  margin-bottom: 15px;
+  margin-left: 10px;
+  /* transform: translate(160%); */
+}
+.part1 {
+  height: 70px;
+  background-color: #009879;
+}
+.part1 > h3 {
+  font-family: "poppins ", sans serif;
+  font-weight: lighter;
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  /*transform: translate(-32px, 17px);*/
+}
+.part2 {
+  height: 70px;
+  border-bottom: 1px solid #a3a3a3;
+}
+.part2 > img {
+  background-color: #010202;
+  border-radius: 50%;
+  height: 100px;
+  transform: translate(0, -50px);
+}
+
+.part2 > h5 {
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  transform: translate(100px, -100px);
+  font-family: "poppins ", sans serif;
+}
+.part3 {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.part3 > h5 {
+  color: black;
+}
+.part3 > lo > li {
+  color: #009879;
+  font-weight: bold;
+}
+.part4 {
+  margin-top: 20px;
+}
+table {
+  margin: 30px 25px;
+  text-align: center;
+  min-width: 350px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+
+  margin-top: 20px;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+th {
+  color: rgb(255, 255, 255);
+  font-family: "poppins", sans-serif;
+  background-color: #009879;
+  height: 35px;
+  border-bottom: 1px solid #dddddd;
+
+  /*background-color: orange;*/
+}
+td > a {
+  color: rgb(20, 20, 53);
+}
+td {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-family: "poppins", sans serif;
+  font-weight: bold;
+  padding: 13px 16px;
+  border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr :nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+tbody :last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.wost > th {
+  align-items: center;
+  text-align: center;
+}
+
+.part5 > h4 {
+  color: #009879;
+  text-align: left;
+  transform: translate(20px, -25px);
+  font-size: 14px;
+  cursor: pointer;
+}
+.lkol .part5 .a {
+  position: relative;
+}
+.lkol .dhbeb ::before {
+  transform: translate(0px, 15.5px);
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 430px;
+  height: 37px;
+  background: linear-gradient(transparent, #009879);
+  cursor: initial;
+}
+
+.lkol {
+  display: flex;
+  flex-direction: column;
+  color: #111;
+  gap: 1rem;
+}
+
+.read-more-btn {
+  cursor: pointer;
+  color: #009879;
+  font-family: "poppins", sans serif;
+  font-size: 17.5px;
+  font-weight: bold;
+  transform: translate(20px, -19px);
+}
+
+.read-more-text {
+  display: none;
+}
+
+.read-more-text--show {
+  display: inline;
+}
+
+/*=============================================================================foouter*/
+.footer {
+  background-color: rgb(19, 17, 17);
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+.footer > p {
+  font-size: 0.7rem;
+  width: 180px;
+  height: 90px;
+  font-family: "Lora", serif;
+  transform: translate(-25px, 0px);
+  color: rgb(255, 255, 255);
+}
+.footer > h3 {
+  transform: translate(-30px, -40px);
+  font-family: "Ceviche One", cursive;
+}
+.list1,
+.list2 {
+  list-style: none;
+}
+.list2 {
+  display: flex;
+}
+.list2 > li > a > i {
+  font-size: 25px;
+  transition: all 0.5s ease 0.2s;
+}
+.bigger > i:hover {
+  color: #4267b2;
+  font-size: 27px;
+}
+.bigger2 > i:hover {
+  color: rgb(40, 103, 178);
+  font-size: 27px;
+}
+.bigger3 > i:hover {
+  color: rgb(224, 54, 187);
+  font-size: 27px;
+}
+.tr1 {
+  transform: translate(-20px, 0px);
+  transition: all 0.5s ease 0.2s;
+}
+.list1 {
+  transform: translate(0px, -10px);
+}
+.tr1:hover {
+  color: rgb(252, 252, 252);
+}
+.copyright {
+  background-color: black;
+  color: beige;
+  padding: 7px;
+  font-size: 0.9rem;
+  font-weight: bolder;
+  text-align: center;
+}

@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a,
+button {
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: rgb(179, 173, 173);
+  border-width: 0px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  border-bottom: 1px solid black;
+  background-color: rgb(20, 20, 53);
+}
+
+.title {
+  display: flex;
+  cursor: pointer;
+  transform: translate(-20px, 0);
+}
+.list {
+  list-style: none;
+}
+form {
+  display: flex;
+  margin-right: -30px;
+}
+input {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: 100px;
+  background-color: beige;
+  border-width: 0px;
+}
+button {
+  background-color: rgb(20, 20, 53);
+  margin-left: -22px;
+  align-items: center;
+  border-radius: 20px;
+  height: 30px;
+  width: 30px;
+  transform: translate(-27px);
+}
+
+.list,
+a {
+  display: flex;
+  padding: 0px 20px;
+}
+h3 {
+  font-family: Helvetica, Sans-Serif;
+  transform: translate(2px);
+  color: rgb(255, 255, 255);
+}
+.logo {
+  color: rgb(201, 2, 2);
+}
+nav,
+li,
+a {
+  transition: all 0.8s ease 0.2s;
+}
+nav li a:hover {
+  color: aliceblue;
+}
+button {
+  transition: all 1s;
+}
+button:hover {
+  color: beige;
+}
+table,
+tr,
+td,
+th {
+  /*border-collapse: collapse;*/
+}
+table {
+  margin: 25px 25px;
+  min-width: 1100px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  text-align: left;
+  margin-top: 20px;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+  margin-bottom: 300px;
+}
+.azerty > th {
+  text-align: center;
+  color: #dddddd;
+}
+.around {
+  background-color: rgb(250, 250, 250);
+  /*background-image: url(images/sky2.jpg);
+  background-size: cover;*/
+}
+th {
+  color: rgb(255, 255, 255);
+  font-family: "poppins", sans-serif;
+  background-color: #009879;
+  height: 35px;
+  border-bottom: 1px solid #dddddd;
+
+  /*background-color: orange;*/
+}
+td > a {
+  color: rgb(20, 20, 53);
+}
+td {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-family: "poppins", sans serif;
+  font-weight: bold;
+  padding: 13px 16px;
+  border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr :nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+tbody :last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.bb {
+  padding: 20px;
+  align-items: center;
+  transform: translate(500px);
+  border-radius: 0%;
+}
+.footer {
+  background-color: rgb(19, 17, 17);
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+.footer > p {
+  font-size: 0.7rem;
+  width: 180px;
+  height: 90px;
+  font-family: "Lora", serif;
+  transform: translate(-25px, 0px);
+  color: rgb(255, 255, 255);
+}
+.footer > h3 {
+  transform: translate(-30px, -40px);
+  font-family: "Ceviche One", cursive;
+}
+.list1,
+.list2 {
+  list-style: none;
+}
+.list2 {
+  display: flex;
+}
+.list2 > li > a > i {
+  font-size: 25px;
+  transition: all 0.5s ease 0.2s;
+}
+.bigger > i:hover {
+  color: #4267b2;
+  font-size: 27px;
+}
+.bigger2 > i:hover {
+  color: rgb(40, 103, 178);
+  font-size: 27px;
+}
+.bigger3 > i:hover {
+  color: rgb(224, 54, 187);
+  font-size: 27px;
+}
+.tr1 {
+  transform: translate(-20px, 0px);
+  transition: all 0.5s ease 0.2s;
+}
+.list1 {
+  transform: translate(0px, -10px);
+}
+.tr1:hover {
+  color: rgb(252, 252, 252);
+}
+.copyright {
+  background-color: black;
+  color: beige;
+  padding: 7px;
+  font-size: 0.9rem;
+  font-weight: bolder;
+  text-align: center;
+}
